@@ -1,0 +1,119 @@
+:root{
+  --bg-color1: hsl(273, 75%, 66%);
+  --bg-color2: hsl(240, 73%, 65%);
+}
+body{
+  background-image: linear-gradient(to right, var(--bg-color1), var(--bg-color2));
+}
+h1{
+  font-size: 35px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+  .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 5px; right: 5px;}
+  .attribution a { color: hsl(228, 45%, 44%); }
+  .accordion {
+    background-color: white;
+    border: none;
+    position: relative;
+    text-align: left;
+    padding-right: 135px;
+    width: 98%;
+    cursor: pointer;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    color: hsl(238, 29%, 16%);
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url("images/icon-arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: 81% 50%;
+  }
+  .accordion:hover{
+    color: hsl(14, 88%, 65%);
+  }
+  .accordionActive{
+    font-weight: bold;
+  }
+  .answer{
+    background-color: white;
+    display: none;
+    width: 85%;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 170%;
+    /*max-width: 100%;*/
+  }
+  .divider{
+    width: 80%;
+    display: inline-block;
+    margin-top: 5px;
+    border: 0;
+    border-top: .3px solid;
+  }
+  .outer{
+    background-color: white;
+    border-radius: 18px;
+    width: 75%;
+    margin: auto;
+    width: 900px;
+    max-width: 100%;
+    height: 450px;
+    max-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -225px 400px 400px -445px;
+  }
+  .innerLeft{
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    border-radius: 18px;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+  .innerRight{
+    background-color: white;
+    overflow-y: scroll;
+    text-align: left;
+    border-radius: 18px;
+    height: 455px;
+    width: 50%;
+    max-width: 100%;
+    position: relative;
+    align-content: flex-start;
+  }
+  #mainImage{
+    position: absolute;
+    margin: 60px 25px 50px -170px;
+    height: 340px;
+    width: auto;
+    max-width: 100%;
+    z-index: 1;
+  }
+  #base{
+    height: 539px;
+    width: auto;
+    max-width: 100%;
+    z-index: 2;
+    margin-left: -185px;
+    transform: rotate(-.1deg);
+  }
+  .outerContainer{
+    overflow: visible;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 36%;
+  }
+  #boxImage{
+    position: absolute;
+    top: 36%;
+    left: -12.2%;
+    z-index: 3;
+  }
