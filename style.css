@@ -104,7 +104,7 @@ h1{
     margin-left: -185px;
     transform: rotate(-.1deg);
   }
-  .outerContainer{
+  .boxContainer{
     overflow: visible;
     position: absolute;
     right: 0;
@@ -116,4 +116,15 @@ h1{
     top: 36%;
     left: -12.2%;
     z-index: 3;
+  }
+@media screen and (max-width: 800px){
+    .boxContainer{
+      display:none;
+    }
+    .innerRight{
+      display:none;
+    }
+    .outer{
+      width: 90%;
+    }
   }
