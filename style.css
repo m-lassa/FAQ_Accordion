@@ -121,8 +121,9 @@ h1{
     .boxContainer{
       display:none;
     }
-    .innerRight{
+    .innerLeft{
       display:none;
+      width: 0px;
     }
     .outer{
       width: 90%;
