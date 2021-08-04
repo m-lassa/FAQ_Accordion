@@ -125,7 +125,9 @@ h1{
     }
     .outer{
       width: 90%;
-      top: 100%;
-      left: 100%;
+      margin: auto;
+    }
+  .innerRight{
+      width: 90%;
     }
   }
