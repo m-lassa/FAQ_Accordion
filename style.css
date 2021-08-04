@@ -127,6 +127,8 @@ h1{
       width: 90%;
       margin: auto;
       position: fixed;
+      top: 5%;
+      left: 5%;
     }
   .innerRight{
       width: 90%;
