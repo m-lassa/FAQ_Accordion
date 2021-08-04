@@ -133,6 +133,7 @@ h1{
       width: 90%;
     }
   .accordion{
-      padding-right: 40px;
+      padding-right: 10px;
+    background-position: 91% 50%;
   }
   }
