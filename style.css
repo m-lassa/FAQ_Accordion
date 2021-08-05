@@ -114,6 +114,13 @@ h1{
     left: -12.2%;
     z-index: 3;
   }
+  .mobileImage{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    margin: auto;
+  }
 @media screen and (max-width: 800px){
   h1{
     text-align: center;
@@ -138,7 +145,8 @@ h1{
   .accordion{
       padding-right: 5px;
     padding-left: 10px;
-    background-position: 111% 50%;
+    background-position: 99% 50%;
+    text-align: center;
   }
   .divider{
     width: 90%;
@@ -148,4 +156,7 @@ h1{
     text-align: center;
     width: 90%;
   }
+  .mobileImage{
+      display: block;
+    }
   }
