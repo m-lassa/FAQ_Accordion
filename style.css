@@ -115,7 +115,10 @@ h1{
     z-index: 3;
   }
 @media screen and (max-width: 800px){
-    .boxContainer{
+  h1{
+    text-align: center;
+  }
+  .boxContainer{
       display:none;
     }
     .innerLeft{
@@ -133,7 +136,16 @@ h1{
       width: 90%;
     }
   .accordion{
-      padding-right: 10px;
-    background-position: 91% 50%;
+      padding-right: 5px;
+    padding-left: 10px;
+    background-position: 111% 50%;
+  }
+  .divider{
+    width: 90%;
+    margin-left: 8px;
+  }
+  .answer{
+    text-align: center;
+    width: 90%;
   }
   }
