@@ -117,7 +117,7 @@ h1{
   .mobileImage{
     display: none;
     position: fixed;
-    left: 50%;
+    left: 25%;
     top: 5%;
     margin: auto;
   }
@@ -158,5 +158,8 @@ h1{
   }
   .mobileImage{
       display: block;
+    }
+  .mobileImage img{
+      width: 50%;
     }
   }
