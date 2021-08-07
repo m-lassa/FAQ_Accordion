@@ -117,14 +117,14 @@ h1{
   .mobileImage{
     display: none;
     position: fixed;
-    left: 30%;
-    top: 3.5%;
+    left: 20%;
+    top: 3%;
     margin-bottom: 3px;
   }
 @media screen and (max-width: 800px){
   h1{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 155px;
   }
   .boxContainer{
       display:none;
@@ -144,15 +144,18 @@ h1{
   .innerRight{
       width: 90%;
       height: 90%;
+      margin-top: 15px;
     }
   .accordion{
       padding-right: 5px;
     padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-position: 99% 50%;
     text-align: center;
   }
   .divider{
-    width: 90%;
+    width: 93%;
     margin-left: 8px;
   }
   .answer{
@@ -163,6 +166,6 @@ h1{
       display: block;
     }
   .mobileImage img{
-      width: 50%;
+      width: 90%;
     }
   }
